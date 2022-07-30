@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="NS.png" type="image/png">
+    <link rel="stylesheet" href="grafico.css">
+    <title>Gráfico</title>
+</head>
+<body>
+    
+    <div class="pri">
+        <div class="sec" id="shadow">
+            <div class="grafico">
+                <!-- <link rel="stylesheet" href="grafico.css"> -->
+                <div class="main">
+                    <h2 class="position_btn"> Gráfico</h2>
+                    <canvas id="myChart" ></canvas>
+                    
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+                    
+                    <script src="grafico.js"></script>
+        
+                </div>
+            </div>
+            <div class=position_btn">
+                <input class="bts_dias, margin_l" placeholder="Segunda" id='segunda'></input>
+                <input class="bts_dias" placeholder="Terça" id='terça'></input>
+                <input class="bts_dias" placeholder="Quarta" id="quarta"></input>
+                <input class="bts_dias, , margin_l" placeholder="Quinta" id="quinta"></input>
+                <input class="bts_dias" placeholder="Sexta" id="sexta"></input>
+                <input class="bts_dias" placeholder="Sábado" id="sabado"></input>
+                <input class="bts_dias" placeholder="Domingo" id="domingo"></input>
+            </div>
+            <div class="btn_setar, position_btn">
+                <div class="bts_menu">
+                <button onclick="funcionaKRL()" id="Setar" class="">Gerar Gráfico</button>
+                <button class="bts_menu" onclick="limpar()">Limpar</button>
+
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
